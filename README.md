@@ -5,6 +5,10 @@ First, run:
 ```bash
 npm install
 ```
+or
+```bash
+yarn install
+```
 
 Create `.env.local` and copy everything from `.env.example`.
 Create firebase project and copy credentials into `.env.local`.
