@@ -6,8 +6,8 @@ First, run:
 npm install
 ```
 
-Create `.env.local` and copy everything from `.env.example`
-Create firebase project and copy credentials into `.env.local`
+Create `.env.local` and copy everything from `.env.example`.
+Create firebase project and copy credentials into `.env.local`.
 
 Run the development server:
 
@@ -21,7 +21,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Firebase functions
 
-Open functions folder
+Open functions folder.
 
 Run:
 
@@ -34,3 +34,7 @@ Edit and run :
 ```bash
 firebase deploy --only functions
 ```
+
+## Sidenote
+Versions of every package do not change! They will not update by themself.
+Reason: I fond the perfect versions for every package for them to be compatibal.
