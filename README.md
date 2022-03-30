@@ -42,5 +42,6 @@ firebase deploy --only functions
 ```
 
 ## Sidenote
-Versions of every package do not change! They will not update by themself.
-- Reason: I fond the perfect versions for every package for them to be compatibal.
+- Versions of every package do not change! They will not update by themself.
+- - Reason: I fond the perfect versions for every package for them to be compatibal.
+- There are potential problems if you use `yarn` instead of `npm`. In case there will be error delete `node_modules`, `package-lock.json`, `yarn.lock`, and use `npm` instead.
