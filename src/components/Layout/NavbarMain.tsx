@@ -59,7 +59,7 @@ export const NavbarMainLink: React.FC<NavbarMainLinkProps> = ({
   return (
     <Link href={href} passHref={true}>
       <UnstyledButton
-        sx={(theme:any) => ({
+        sx={(theme: any) => ({
           display: 'block',
           width: '100%',
           padding: theme.spacing.xs,

@@ -34,7 +34,7 @@ export const useAuthProvider = (): useAuthType => {
     const google = new firebase.auth.GoogleAuthProvider();
     await auth
       .signInWithPopup(google)
-      .then(() => console.log("login success"))
+      .then(() => console.log('login success'))
       .catch((err) => console.log(err.code))
       .finally(() => setLoading(false));
     return;
