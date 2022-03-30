@@ -37,4 +37,4 @@ firebase deploy --only functions
 
 ## Sidenote
 Versions of every package do not change! They will not update by themself.
-Reason: I fond the perfect versions for every package for them to be compatibal.
+- Reason: I fond the perfect versions for every package for them to be compatibal.
